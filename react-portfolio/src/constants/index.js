@@ -1,13 +1,16 @@
-import PORTFOLIO_IMAGE from "../assets/portfolio.png"
+// import PORTFOLIO_IMAGE from "../assets/portfolio.png"
+
+export const PROFILE_IMG = "https://res.cloudinary.com/dbfchguxf/image/upload/v1720530705/profile_oabed5.jpg"
+export const ABOUT_IMG = "https://res.cloudinary.com/dbfchguxf/image/upload/v1720530663/1_sgtpo0.png"
 
 export const WHATTSAPP_LINK = `http://tiny.cc/Divyen-whatsapp`;
 export const GITHUB_LINK = `https://github.com/Divyen-Dalwadi2000`;
 export const LINKDIN_LINK = `http://tiny.cc/Divyen-linkdin`;
 export const MAIL_LINK = `mailto:dalwadiddj2000@gmail.com`;
 
-export const INTRO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications.I have skills in front-end technology like React , as well as back-end technologies like Node.js, MySQL , and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const INTRO_CONTENT = `I am a passionate full-stack developer who enjoys building strong and scalable web applications. I have skills in front-end technologies like React and back-end technologies like Java, Node.js, and Ruby on Rails. I am also skilled in using SQL databases like MySQL and NoSQL databases like MongoDB. My goal is to use my skills to create new solutions that help businesses grow and provide great user experiences.`;
 
-export const ABOUT_TEXT = `I am Divyen Dalwadi, a dedicated software developer currently pursuing a Master of Computer Application. I have experience with Java, MySQL, and Ruby on Rails, having developed various CRUD systems and a ticket booking application. I thrive in collaborative environments, adapting quickly to new challenges. Outside of coding, I enjoy running, videography, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated software developer currently pursuing a Master of Computer Application. I have experience with Java, MySQL, and Ruby on Rails, having developed various CRUD systems and a ticket booking application. I thrive in collaborative environments, adapting quickly to new challenges. Outside of coding, I enjoy running, videography, and contributing to open-source projects.`;
 
 
 
@@ -29,6 +32,9 @@ const PROJECT_IMG = "https://plus.unsplash.com/premium_photo-1710522706751-c2f0c
 const ATM_IMG = "https://images.unsplash.com/photo-1611605862651-c91b8778ce01?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://unsplash.com/photos/a-building-with-a-atm-sign-lit-up-at-night-7Q1lhdgbyNU";
 const EMA_IMG = "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
 const SMA_IMG = "https://plus.unsplash.com/premium_photo-1663079426406-1b82fed16a79?q=80&w=1215&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+
+
+const PORTFOLIO_IMAGE  = "https://res.cloudinary.com/dbfchguxf/image/upload/v1720530691/portfolio_gwribm.png"
 export const PROJECTS = [
   {
     title: "Ticket Booking Application",

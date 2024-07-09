@@ -1,7 +1,7 @@
 import Aboutprofile from "../assets/1.png"
 import { ABOUT_TEXT } from "../constants/index";
 import { motion } from "framer-motion"
-
+import { ABOUT_IMG } from "../constants/index";
 const About = () => {
     return (
         <>
@@ -19,7 +19,7 @@ const About = () => {
                             initial={{ x: -100, opacity: 0 }}
                             transition={{ duration: 0.5, delay: 0 }}
                             className="flex items-center justify-center relative bg-gradient-to-b from-yellow-500 rounded-3xl">
-                            <img src={Aboutprofile} alt="about image" className="w-auto transition-transform duration-200 hover:scale-105" />
+                            <img src={ABOUT_IMG} alt="about image" className="w-auto transition-transform duration-200 hover:scale-105" />
                         </motion.div>
                     </div>
                     <div className="w-full lg:w-1/2 ">

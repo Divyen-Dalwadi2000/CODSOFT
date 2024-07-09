@@ -1,7 +1,7 @@
 import { INTRO_CONTENT } from "../constants/index";
 import Profile from "../assets/profile.jpg"
 import { motion } from "framer-motion"
-
+import { PROFILE_IMG } from "../constants/index";
 
 const container = (delay) => ({
     hidden: { x: -100, opacity: 0 },
@@ -45,10 +45,10 @@ const Introduction = () => {
                 <div className="w-full lg:w-1/2 lg:p-8">
                     <div className="flex justify-center">
                         <motion.img
-                            initial={{ x: 100, opacity: 0 }}
-                            animate={{ x: 0, opacity: 1 }}
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
                             transition={{ duration: 1, delay: 1.2 }}
-                            src={Profile} alt="Profile Image" className="rounded-3xl  max-w-86 transition-transform duration-200 hover:scale-105" />
+                            src={PROFILE_IMG} alt="Profile Image" className="rounded-3xl  max-w-86 transition-transform duration-200 hover:scale-105" />
                     </div>
                 </div>
             </div>
