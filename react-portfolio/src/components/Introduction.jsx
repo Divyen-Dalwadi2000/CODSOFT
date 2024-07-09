@@ -22,13 +22,11 @@ const Introduction = () => {
                             variants={container(0)}
                             initial="hidden"
                             animate="visible"
-
                             className="pb-12 text-4xl font-thin tracking-tight lg:mt-16 lg:text-6xl">Divyen Dalwadi</motion.h1>
                         <motion.span
                             variants={container(0.5)}
                             initial="hidden"
                             animate="visible"
-
                             className="bg-gradient-to-r from-pink-500 via-yellow-600 to-purple-500 bg-clip-text text-transparent text-1xl tracking-tight lg:text-2xl ">
                             Full Stack Developer
                         </motion.span>
@@ -36,8 +34,7 @@ const Introduction = () => {
                             variants={container(1)}
                             initial="hidden"
                             animate="visible"
-
-                            className="my-2 max-w-xl py-6 font-light tracking-tighter">
+                            className="my-2 max-w-xl py-6 font-light ">
                             {INTRO_CONTENT}
                         </motion.p>
                     </div>

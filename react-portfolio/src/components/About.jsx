@@ -28,7 +28,7 @@ const About = () => {
                                 whileInView={{ x: 0, opacity: 1 }}
                                 initial={{ x: 100, opacity: 0 }}
                                 transition={{ duration: 1, delay: 0.5 }}
-                                className="my-2 max-w-xl py-20">{ABOUT_TEXT} </motion.p>
+                                className="my-2 max-w-xl py-20 font-light">{ABOUT_TEXT} </motion.p>
                         </div>
                     </div>
                 </div>
