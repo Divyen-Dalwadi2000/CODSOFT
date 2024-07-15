@@ -14,6 +14,7 @@ const Navbar = () => {
     return (
         <>
              <nav className="fixed top-0 right-0 left-0 flex items-center justify-between py-4 px-4"  >
+             {/* <nav className=" flex items-center justify-between py-4 px-4"  > */}
                 <div>
                     <h1 className="text-white hover:text-yellow-200 text-sm" id="special-font">Divyen Dalwadi</h1>
                     {/* <img src={Logo} alt="Logo" className="flex flex-shrink-0 items-center w-10" /> */}
