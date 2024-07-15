@@ -6,6 +6,12 @@ import { SiMongodb } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
 import { SiMysql } from "react-icons/si";
+import { IoLogoSass } from "react-icons/io5";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { FaGitAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { SiPostman } from "react-icons/si";
+
 import { motion } from "framer-motion";
 
 
@@ -145,6 +151,71 @@ const Technologies = () => {
                         variants={hoverVariants}
                         className="absolute bottom-0 left-0 right-0 text-neutral-500 text-sm text-center py-1">
                         MySQL
+                    </motion.span>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(2.5)}
+                    initial="initial"
+                    animate="animate"
+                    whileHover="hover"
+                    className="border-4 rounded-2xl border-neutral-800 p-4">
+                    <IoLogoSass className="text-7xl text-pink-500" />
+                    <motion.span
+                        variants={hoverVariants}
+                        className="absolute bottom-0 left-0 right-0 text-neutral-500 text-sm text-center py-1">
+                        Sass
+                    </motion.span>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(2.5)}
+                    initial="initial"
+                    animate="animate"
+                    whileHover="hover"
+                    className="border-4 rounded-2xl border-neutral-800 p-4">
+                    <RiTailwindCssFill className="text-7xl text-cyan-500" />
+                    <motion.span
+                        variants={hoverVariants}
+                        className="absolute bottom-0 left-0 right-0 text-neutral-500 text-sm text-center py-1">
+                        Tailwind CSS
+                    </motion.span>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(2.5)}
+                    initial="initial"
+                    animate="animate"
+                    whileHover="hover"
+                    className="border-4 rounded-2xl border-neutral-800 p-4">
+                    <SiPostman className="text-7xl text-orange-600" />
+                    <motion.span
+                        variants={hoverVariants}
+                        className="absolute bottom-0 left-0 right-0 text-neutral-500 text-sm text-center py-1">
+                        Postman
+                    </motion.span>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(2.5)}
+                    initial="initial"
+                    animate="animate"
+                    whileHover="hover"
+                    className="border-4 rounded-2xl border-neutral-800 p-4">
+                    <FaGithub className="text-7xl text-black" />
+                    <motion.span
+                        variants={hoverVariants}
+                        className="absolute bottom-0 left-0 right-0 text-neutral-500 text-sm text-center py-1">
+                        Github
+                    </motion.span>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(2.5)}
+                    initial="initial"
+                    animate="animate"
+                    whileHover="hover"
+                    className="border-4 rounded-2xl border-neutral-800 p-4">
+                    <FaGitAlt className="text-7xl text-orange-600" />
+                    <motion.span
+                        variants={hoverVariants}
+                        className="absolute bottom-0 left-0 right-0 text-neutral-500 text-sm text-center py-1">
+                        Git
                     </motion.span>
                 </motion.div>
             </motion.div>
