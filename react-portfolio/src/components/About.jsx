@@ -4,6 +4,8 @@ import { motion } from "framer-motion"
 import { ABOUT_IMG } from "../constants/index";
 import Resumebutton from "./Resumebutton";
 
+
+
 const About = () => {
     return (
         <>
@@ -33,6 +35,7 @@ const About = () => {
                                 className="my-1 max-w-xl py-20 font-light">{ABOUT_TEXT} </motion.p>
                         </div>
                             <Resumebutton />
+                            
                     </div>
                 </div>
             </div>
